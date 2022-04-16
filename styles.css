@@ -1,0 +1,152 @@
+body {
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+}
+
+logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;  
+}
+
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  gap: 30px;
+  padding: 20px 100px;
+  justify-content: space-between;
+}
+
+.awesome {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.image {
+  background-color: grey;
+  width: 400px;
+  height: 170px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.info {
+  padding: 20px 100px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border: #3882F6;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.boxtext {
+  width: 130px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 20px 100px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.thor {
+  color: black;
+  font-weight: bold;
+  text-align: right;
+}
+
+.action {
+  color: white;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  margin: 20px 100px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #1F2937;  
+}
+
+button {
+  color: white;
+  background-color: #3882F6;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.button-top {
+  border-style: none;
+}
+
+.button-bottom {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.calltoaction {
+  font-weight: bold;
+  font-size: large;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px 0
+}
